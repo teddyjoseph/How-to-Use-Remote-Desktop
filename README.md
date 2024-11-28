@@ -57,21 +57,5 @@ Use the Remote Desktop client to connect to the configured machine <br/>
 
 ![image](https://github.com/user-attachments/assets/0a3f32af-4420-43a2-a1ca-35262939a008)
 
-Video Demonstration  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
-# Enable Remote Desktop
-Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\' -Name "fDenyTSConnections" -Value 0
-
-# Allow Remote Desktop through Windows Firewall
-Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+Video Demonstration:  <br/>
+https://vimeo.com/1034334664?share=copy#t=0
